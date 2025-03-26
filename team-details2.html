@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails de l'Équipe - EXPO MANUEL DU MONDE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap">
+    <style>
+        .member-detail {
+            padding: 4rem 0;
+            border-bottom: 1px solid #eaeaea;
+        }
+        .member-detail:last-child {
+            border-bottom: none;
+        }
+        .member-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+        .member-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #f0f0f0;
+            background-size: cover;
+            background-position: center;
+            margin-right: 2rem;
+        }
+        .member-info h2 {
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+        .member-role {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        .member-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .member-bio {
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        .video-container {
+            margin: 2rem 0;
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .team-nav {
+            background-color: #f5f5f5;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .team-nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 1rem;
+        }
+        .team-nav-title {
+            font-weight: 600;
+            color: var(--dark-color);
+        }
+        .team-nav-links {
+            display: flex;
+            gap: 1rem;
+        }
+        .team-nav-links a {
+            color: var(--dark-color);
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .team-nav-links a:hover {
+            background-color: #e0e0e0;
+        }
+        .back-to-team {
+            display: inline-block;
+            margin-top: 2rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-to-team:hover {
+            text-decoration: underline;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .social-icon:hover {
+            transform: scale(1.1);
+        }
+        .social-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">EXPO <span>MANUEL DU MONDE</span></div>
+        <nav>
+            <ul>
+                <li><a href="index2.html">Exposition 2025</a></li>
+                <li><a href="future2.html">Coming in 2026</a></li>
+                <li><a href="about2.html">About</a></li>
+                <li><a href="team-details.html">Français</a></li>            </ul>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <div class="team-nav">
+        <div class="team-nav-container">
+            <div class="team-nav-title">Our Team</div>
+            <div class="team-nav-links">
+                <a href="#mohamed">Mohamed</a>
+                <a href="#riyad">Riyad</a>
+                <a href="#yunes">Yunes</a>
+                <a href="#ali">Ali</a>
+                <a href="#dimitar">Dimitar</a>
+                <a href="#amine">Amine</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <section id="mohamed" class="member-detail">
+            <div class="member-content">
+                <div class="member-header">
+                    <div class="member-photo" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/mohamed.jpg-EpTrFQeynvnMBdHSzN7rDEt1ZPl1vI.webp')"></div>
+                    <div class="member-info">
+                        <h2>Mohamed BOUSARGHINI</h2>
+                        <div class="member-role">Project Manager and Communicator</div>
+                    </div>
+                </div>
+                <div class="member-bio">
+                    <p>Mohamed conducted research in his area and shared links according to established criteria, while also being designated group leader. He contacted the organizer by email, acting as a liaison between the organizer and the group. Mohamed confirmed the meeting, asked the organizer questions, and helped finalize the roadmap. He wrote the interview with Dimitar and provided feedback on the website. He also contributed to taking photos and writing content for the thesis defense.</p>
+                    
+                </div>
+               
+                <a href="about2.html" class="back-to-team">← Back to the team</a>
+            </div>
+        </section>
+
+        <section id="riyad" class="member-detail">
+            <div class="member-content">
+                <div class="member-header">
+                    <div class="member-photo" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/riyad.jpg-3spWPwaIAtr8aOClUeBo7UMM5AJdao.webp')"></div>
+                    <div class="member-info">
+                        <h2>Riyad LAROUB</h2>
+                        <div class="member-role">Editor </div>
+                    </div>
+                </div>
+                <div class="member-bio">
+                    <p>Riyad worked with Yunes to finalize the roadmap. He wrote a progress report on the roadmap and collaborated on formatting the presentation slides for the defense. Finally, Riyad participated in taking photos and developing the content for the defense.</p>
+                    
+                </div>
+               
+                <a href="about2.html" class="back-to-team">← Back to the team</a>
+            </div>
+        </section>
+
+        <section id="yunes" class="member-detail">
+            <div class="member-content">
+                <div class="member-header">
+                    <div class="member-photo" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/yunes-Y6vhKIrBw5THSYYmVDi6Om0dFWLgoW.webp')"></div>
+                    <div class="member-info">
+                        <h2>Yunes BOUABTA</h2>
+                        <div class="member-role">Coordinator and Data Collector</div>
+                    </div>
+                </div>
+                <div class="member-bio">
+                    <p>Younes started the roadmap by sharing links to the Excel file and creating a Discord server to facilitate group communication. He then participated in data collection from event attendees by asking questions and gathering information. He then worked with Ryad to finalize the roadmap and participated in writing the progress report. He also provided feedback on the site and suggested corrections or improvements.</p>
+                    
+                </div>
+                
+                <a href="about2.html" class="back-to-team">← Back to the team</a>
+            </div>
+        </section>
+
+        <section id="ali" class="member-detail">
+            <div class="member-content">
+                <div class="member-header">
+                    <div class="member-photo" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ali.jpg-x8KmoxRJsNE1o0e6ZGKlAVOzHmVVeb.webp')"></div>
+                    <div class="member-info">
+                        <h2>Ali EL MAHFOUDI</h2>
+                        <div class="member-role">Visual Manager</div>
+                    </div>
+                </div>
+                <div class="member-bio">
+                    <p>Ali began preparing the poster for the event and shared a template with the team. He took notes on the questions posed to the organizer and finalized the poster layout. Ali sorted the photos to include in the logbook and uploaded them to the file. He provided feedback on the website and suggested improvements. Finally, he participated in taking photos and developing content for the thesis defense.</p>
+                    
+                </div>
+                
+                <a href="about2.html" class="back-to-team">← Back to the team</a>
+            </div>
+        </section>
+
+        <section id="dimitar" class="member-detail">
+            <div class="member-content">
+                <div class="member-header">
+                    <div class="member-photo" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dimitar.jpg-akqKJOpABBPTp0VmyXCTmvOX6tAyJv.webp')"></div>
+                    <div class="member-info">
+                        <h2>Dimitar DIMITROV</h2>
+                        <div class="member-role">Researcher and Editor </div>
+                    </div>
+                </div>
+                <div class="member-bio">
+                    <p>Dimitar conducted research in his city and shared links related to his findings. He prepared questions with Mohamed and researched the site before arriving to be fully prepared. Dimitar took notes on the questions posed to the organizer and collaborated with Mohamed to write an interview. He also worked on the presentation for the defense and participated in creating the slide deck.</p>
+                    
+                </div>
+               
+                <a href="about2.html" class="back-to-team">← Back to the team</a>
+            </div>
+        </section>
+
+        <section id="amine" class="member-detail">
+            <div class="member-content">
+                <div class="member-header">
+                    <div class="member-photo" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/amine-xDTaVe76j1wkGrBC1cY3hG5g9hE577.png')"></div>
+                    <div class="member-info">
+                        <h2>ADJOU Amine</h2>
+                        <div class="member-role">Analyst and Developer</div>
+                    </div>
+                </div>
+                <div class="member-bio">
+                    <p>Amine created a survey on Google Forms to collect information from attendees and the organizer. He asked participants questions to collect data and worked on creating graphs based on the survey results for the logbook. He was also responsible for designing the entire website, all while respecting the required format.</p>
+
+                </div>
+               
+                <a href="about2.html" class="back-to-team">← Back to the team</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ÉQUIPE EXPO</h3>
+                <p>Passionate about history, innovation and meaningful experiences.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: contact@expomanuel.fr</p>
+                <p>Téléphone: +33 1 23 45 67 89</p>
+            </div>
+            <div class="footer-section">
+                <h3>Visit us</h3>
+                <p>123 Avenue de l'Exposition</p>
+                <p>Paris, France</p>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="https://x.com/ArchivesnatFr" target="_blank" class="social-icon">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/twitter.jpg-v5FcyohCJGo4MgyyHzF8yxispvG4wr.webp" alt="Twitter">
+            </a>
+            <a href="https://fr-fr.facebook.com/Archives.nationales.France" target="_blank" class="social-icon">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fbk-dN6iqZrrbqgw2G069CCk2jXNxkjsfX.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/archivesnatfr?igsh=MTRpeTdlM2I1ZGZiZQ==" target="_blank" class="social-icon">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Insta-giPoHbr8FeJ2BREAP2yclynMvh2neI.png" alt="Instagram">
+            </a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 EXPO TEAM. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

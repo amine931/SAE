@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exposition 2026 - Manuels du Monde</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap">
+    <style>
+        /* Styles pour la nouvelle section hero */
+        .future-hero {
+            background-color: #f8f9fa;
+            background-image: linear-gradient(135deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0) 100%);
+            padding: 4rem 0;
+            position: relative;
+        }
+        
+        .hero-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        .hero-content {
+            flex: 1;
+            padding-right: 3rem;
+            max-width: 60%;
+        }
+        
+        .hero-content h1 {
+            color: #000; /* Titre en noir */
+            margin-bottom: 1rem;
+        }
+        
+        .hero-content p {
+            color: #000; /* Date en noir */
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .hero-image {
+            flex: 0 0 35%;
+            max-width: 350px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+            margin-left: auto; /* Pousse l'image vers la droite */
+        }
+        
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        /* Styles pour les icônes sociales */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        
+        .social-icon:hover {
+            transform: scale(1.1);
+        }
+        
+        .social-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-container {
+                flex-direction: column;
+            }
+            
+            .hero-content {
+                padding-right: 0;
+                margin-bottom: 2rem;
+                text-align: center;
+                max-width: 100%;
+            }
+            
+            .hero-image {
+                max-width: 100%;
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body class="future-page">
+    <header>
+        <div class="logo">EXPO<span>2026</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Exposition 2025</a></li>
+                <li><a href="future.html" class="active">À venir en 2026</a></li>
+                <li><a href="about.html">À Propos</a></li>
+                <li><a href="future2.html">English</a></li>            </ul>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section hero modifiée avec l'image ajoutée -->
+        <section class="hero future-hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1>Manuels du Monde <span>Enseigner l'Histoire à Travers les Cultures</span></h1>
+                    <p>Du 28 Mars au 5 Octobre 2026</p>
+                    <a href="Programme2026.pdf" target="_blank" class="btn-primary">Télécharger le Programme</a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/affiche.jpg-oJDPQADyL88C0V3V7ED8185krqvJvb.webp" alt="Affiche de l'exposition 2026 - Illustrer l'Histoire du Monde">
+                </div>
+            </div>
+        </section>
+
+        <section class="teaser">
+            <h2>Présentation de l'événement</h2>
+            <div class="teaser-content">
+                <div class="teaser-text">
+                    <p>L'édition 2026 élargit la perspective de l'exposition précédente en proposant une immersion dans l'enseignement de l'histoire à travers le monde. À travers une centaine de manuels scolaires issus de divers pays et diverses époques, l'exposition explique comment les enjeux politiques, sociaux et éducatifs influencent ces contenus.</p>
+                    <p>Découvrez comment l'histoire est enseignée dans plus de 50 pays, du 17<sup>ème</sup> siècle à aujourd'hui, et comparez les différentes perspectives culturelles sur les grands événements historiques.</p>
+                </div>
+                <div class="teaser-image" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/manuel.jpg-EOZNijag9xvnjb1QzjqcNAq4cR4iMV.jpeg')"></div>
+            </div>
+        </section>
+
+        <section class="featured">
+            <h2>Thématiques de l'Exposition</h2>
+            <div class="exhibition-grid">
+                <div class="exhibition-card">
+                    <div class="exhibition-image" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/colonial.jpg-g7G6n42wipx284ppNHWR7zq33q1z7j.webp')"></div>
+                    <div class="exhibition-info">
+                        <h3>Colonisation et décolonisation</h3>
+                        <p>Comment ces périodes sont enseignées selon les pays et les époques. Découvrez les différentes perspectives sur l'expansion coloniale et les mouvements d'indépendance.</p>
+                        <a href="thematiques-details.html#colonisation" class="btn-secondary">Explorer</a>
+                    </div>
+                </div>
+                <div class="exhibition-card">
+                    <div class="exhibition-image" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2GM.jpg-NtUdNcQOMDqY1ZvuYajIawfV06tZi7.jpeg')"></div>
+                    <div class="exhibition-info">
+                        <h3>Les guerres mondiales</h3>
+                        <p>Points de vue européens, asiatiques et américains sur ces conflits majeurs. Analysez comment les différentes nations racontent ces événements traumatiques.</p>
+                        <a href="thematiques-details.html#guerres-mondiales" class="btn-secondary">Explorer</a>
+                    </div>
+                </div>
+                <div class="exhibition-card">
+                    <div class="exhibition-image" style="background-image: url('https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80')"></div>
+                    <div class="exhibition-info">
+                        <h3>L'Histoire à l'ère du numérique</h3>
+                        <p>Présentation de projets numériques modernisant l'enseignement de l'histoire. Découvrez comment les nouvelles technologies transforment notre rapport au passé.</p>
+                        <a href="thematiques-details.html#histoire-numerique" class="btn-secondary">Explorer</a>
+                    </div>
+                </div>
+                <div class="exhibition-card">
+                    <div class="exhibition-image" style="background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/propagande.jpg-UeBCHRMJlcbaoyxjWJrjjr3cxUuFK9.jpeg')"></div>
+                    <div class="exhibition-info">
+                        <h3>Propagande ou éducation ?</h3>
+                        <p>Analyse des manuels scolaires sous régimes autoritaires et démocratiques. Comprenez comment l'idéologie façonne l'enseignement de l'histoire.</p>
+                        <a href="thematiques-details.html#propagande" class="btn-secondary">Explorer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="events">
+            <h2>Événements Spéciaux</h2>
+            
+            <div class="event-category">
+                <h3>Journée d'ouverture - 28 Mars 2026</h3>
+                <div class="event-list">
+                    <div class="event-item">
+                        <div class="event-time">10h - 11h30</div>
+                        <div class="event-details">
+                            <h4>Discussion avec des historiens et professeurs internationaux</h4>
+                            <p>Échanges sur les différences culturelles dans l'enseignement de l'histoire</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-time">14h - 15h30</div>
+                        <div class="event-details">
+                            <h4>Propagande ou éducation ?</h4>
+                            <p>Analyse des manuels scolaires sous régimes autoritaires et démocratiques</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-time">16h - 17h</div>
+                        <div class="event-details">
+                            <h4>L'Histoire à l'ère du numérique</h4>
+                            <p>Présentation de projets numériques modernisant l'enseignement de l'histoire</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="event-category">
+                <h3>Événements hebdomadaires - Tous les mercredis</h3>
+                <div class="event-list">
+                    <div class="event-item">
+                        <div class="event-time">14h - 16h</div>
+                        <div class="event-details">
+                            <h4>Réécrit l'histoire</h4>
+                            <p>Les visiteurs rédigent et illustrent leur propre page d'un manuel historique en fonction de leur vision de l'histoire</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-time">16h30 - 18h</div>
+                        <div class="event-details">
+                            <h4>Les manuels et nous</h4>
+                            <p>Atelier de discussion : comment notre éducation influence notre perception de l'histoire ?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="event-category">
+                <h3>Événements mensuels - Chaque 1<sup>er</sup> lundi du mois</h3>
+                <div class="event-list">
+                    <div class="event-item">
+                        <div class="event-time">16h30 - 18h30</div>
+                        <div class="event-details">
+                            <h4>Les Manuels scolaires, miroir de la société</h4>
+                            <p>Conférence de Stéphanie Pillonca suivie d'un débat avec des professeurs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="event-note">
+                <p>Tous les événements sont gratuits et ouverts à tous.</p>
+            </div>
+        </section>
+
+        <section class="countdown">
+            <h2>Compte à rebours jusqu'à l'ouverture</h2>
+            <div id="countdown-timer">
+                <div class="countdown-item">
+                    <span id="days">365</span>
+                    <span>Jours</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours">24</span>
+                    <span>Heures</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes">60</span>
+                    <span>Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds">60</span>
+                    <span>Secondes</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="early-access">
+            <div class="early-access-content">
+                <h2>Manifestez votre intérêt</h2>
+                <p>Inscrivez-vous pour recevoir des informations exclusives et être parmi les premiers à réserver vos billets</p>
+                <form>
+                    <input type="text" placeholder="Votre nom">
+                    <input type="email" placeholder="Votre adresse email">
+                    <button type="submit" class="btn-primary">Rejoindre la Liste Prioritaire</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>EXPO2026</h3>
+                <p>Manuel du Monde : Perspectives Futures</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: contact@expomanuel.fr</p>
+                <p>Téléphone: 01 23 45 67 89</p>
+            </div>
+            <div class="footer-section">
+                <h3>Visitez-nous</h3>
+                <p>Quai François Mauriac, 75706</p>
+                <p>Paris, France</p>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="https://x.com/ArchivesnatFr" target="_blank" class="social-icon">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/twitter.jpg-v5FcyohCJGo4MgyyHzF8yxispvG4wr.webp" alt="Twitter">
+            </a>
+            <a href="https://fr-fr.facebook.com/Archives.nationales.France" target="_blank" class="social-icon">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fbk-dN6iqZrrbqgw2G069CCk2jXNxkjsfX.png" alt="Facebook">
+            </a>
+            <a href="https://www.instagram.com/archivesnatfr?igsh=MTRpeTdlM2I1ZGZiZQ==" target="_blank" class="social-icon">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Insta-giPoHbr8FeJ2BREAP2yclynMvh2neI.png" alt="Instagram">
+            </a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 EXPO MANUEL DU MONDE. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
